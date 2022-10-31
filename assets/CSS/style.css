@@ -22,7 +22,7 @@ header {
 #logo {
     width: 70%;
     padding-left: 20%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 header ul {
@@ -42,3 +42,14 @@ header a {
     text-decoration: none;
     margin-right: auto;
 }
+
+#about {
+    background-color: #eae9d9;
+}
+
+#hero-photo{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
