@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Josefin+Slab:wght@300&display=swap');
 
 * {
     margin:0;
@@ -8,10 +8,15 @@
 
 body {
     font-family: Josefin Sans, sans-serif;
+    color: black;
+}
+
+body a:hover {
+    cursor: url("../images/paw-solid.svg"), auto;
 }
 
 h1, h2 {
-    font-family: Yeseva One, cursive;
+    font-family: Josefin Slab, serif;
 }
 
 header {
@@ -33,14 +38,21 @@ header ul {
 header li {
     list-style-type: none;
     display: inline-block;
-    padding: 20px 20px;
-    font-size: 150%;
+    padding: 20px 25px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 
 header a {
     text-decoration: none;
     margin-right: auto;
+    color: black;
+}
+
+
+header li:hover {
+    background-color: #89CFF0;
 }
 
 #about {
