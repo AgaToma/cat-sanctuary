@@ -71,19 +71,22 @@ header li:hover {
 
 #about {
     background-color: #eae9d9;
-    
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
 }
 
 #about-text {
    background-color: red;
-   float: left;
    width: 50%;
 }
 
-#about-photo{
+#about-photo {
     display: flex;
     justify-content: flex-end;
-    padding-right: 4%;
+    width: 50%;
 }
 
 #carousel {
