@@ -73,9 +73,14 @@ header li:hover {
     background-color: #eae9d9;
 }
 
-.flexbox {
+.flexbox-center {
     display: flex;
     justify-content: center;
+}
+
+.flexbox-left {
+    display: flex;
+    justify-content: flex-end;
 }
 
 #about-text {
