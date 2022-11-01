@@ -86,16 +86,38 @@ header li:hover {
 #about-text {
    background-color: red;
    width: 50%;
+   height: 500px;
 }
 
 #about-photo {
     display: flex;
     justify-content: flex-end;
     width: 50%;
+    height: 500px;
 }
+
+/* Carousel */
 
 #carousel {
     background-color: blue;
-    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
 }
 
+.carousel-slide {
+    position: relative;
+}
+
+#carousel img {
+    height: 600px;
+}
+
+#carousel video {
+    height: 600px;
+}
