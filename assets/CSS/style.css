@@ -75,7 +75,8 @@ header li:hover {
 
 .flexbox-center {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flexbox-left {
@@ -84,17 +85,25 @@ header li:hover {
 }
 
 #about-text {
-   background-color: red;
-   width: 50%;
-   height: 500px;
+    background-color: red;
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+#about-text div {
+    position: absolute;
+    bottom: 0;
+
 }
 
 #about-photo {
-    display: flex;
-    justify-content: flex-end;
     width: 50%;
     height: 500px;
+    display: flex;
+    justify-content: flex-end;
 }
+
 
 /* Carousel */
 
