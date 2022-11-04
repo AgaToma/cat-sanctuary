@@ -86,7 +86,6 @@ header li:hover {
 }
 
 #about-text {
-    background-color: red;
     width: 60%;
     height: 600px;
     position: relative;
@@ -123,6 +122,12 @@ header li:hover {
 .text-bottom h2, h4 {
     text-align: center;
     font-size: 2em;
+}
+
+.flex-columns {
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 #about-photo {
