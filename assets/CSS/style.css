@@ -182,8 +182,30 @@ header li:hover {
     width: 100%;
     background-image: url(../images/bckgrd-forest.jpg);
     height: 600px;
+    color: #eae9d9;
+}
+
+#location a {
+    text-decoration: none;
+    color: #eae9d9;
+}
+
+#location-heading {
+    background-color: rgba(171, 182, 171, 0.5) ;
+}
+
+#location-container {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #location-content {
-    color: #eae9d9;
+    
+}
+
+#map {
+    height: 400px;
 }
