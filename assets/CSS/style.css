@@ -15,9 +15,6 @@ body a:hover {
     cursor: url("../images/paw-solid.svg"), auto;
 }
 
-h1 {
-    font-size: 2em;
-}
 
 /* Header*/
 
@@ -127,6 +124,9 @@ header li:hover {
 .flex-columns {
     display: flex;
     justify-content: space-evenly;
+    margin-right: 300px;
+    margin-left: 100px;
+    width: 120%;
 
 }
 
@@ -137,6 +137,19 @@ header li:hover {
     justify-content: flex-end;
 }
 
+.column-container {
+    inline-size: 40%;
+    line-height:2.5em;
+    overflow: wrap;
+}
+
+.column-container h3 {
+    font-size: 1.3em;
+}
+
+.column-container li {
+    font-size: 1.3em;
+}
 
 /* Carousel */
 
