@@ -154,7 +154,6 @@ header li:hover {
 /* Carousel */
 
 #carousel {
-    background-color: blue;
     top: 0;
     right: 0;
     bottom: 0;
@@ -170,9 +169,21 @@ header li:hover {
 }
 
 #carousel img {
-    height: 600px;
+    height: 500px;
 }
 
 #carousel video {
+    height: 500px;
+}
+
+/* Contact-location section */
+
+#location {
+    width: 100%;
+    background-image: url(../images/bckgrd-forest.jpg);
     height: 600px;
+}
+
+#location-content {
+    color: #eae9d9;
 }
