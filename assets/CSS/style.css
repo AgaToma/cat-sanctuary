@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Josefin+Slab:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Yeseva+One&display=swap');
 * {
     margin:0;
     padding:0;
@@ -193,11 +192,19 @@ header li:hover {
 }
 
 #location-heading {
-    margin-left: 40%;
-    margin-right: 40%;
+    padding-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
-    border: 3px solid #eae9d9;
-    background-color: rgba(126, 103, 106, 0.6);
+    font-family: 'Yeseva One', cursive;
+    letter-spacing: 0.1em;
+}
+
+#location-heading h2 {
+    margin-top: 1%;
+    padding: 2%;
+    background-color: rgba(126, 103, 106, 0.6);font-size: 2em;
+    
 }
 
 #location-container {
@@ -206,6 +213,7 @@ header li:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-bottom: 2%;
 }
 
 #location-content {
@@ -217,9 +225,14 @@ header li:hover {
 .location-content-box {
     background-color: rgba(126, 103, 106, 0.6);
     text-align: center;
-    border: 2px solid #eae9d9;
+    margin:1%;
+    padding: 1%;
 }
 
+.location-content-box h3 {
+    font-family: 'Yeseva One', cursive;
+    letter-spacing: 0.1em;
+}
 .timetable {
     width: 100%;
 }
@@ -231,7 +244,6 @@ header li:hover {
 #map {
     width: 30%;
     height: 400px;
-    border: 3px solid #eae9d9;
     overflow: hidden;
 }
 
