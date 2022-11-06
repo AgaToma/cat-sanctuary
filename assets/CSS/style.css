@@ -170,10 +170,14 @@ header li:hover {
 
 #carousel img {
     height: 500px;
+    border-radius: 16px;
+    z-index: 3;
 }
 
 #carousel video {
     height: 500px;
+    border-radius: 16px;
+    z-index: 3;
 }
 
 /* Contact-location section */
@@ -252,4 +256,10 @@ header li:hover {
 #map iframe {
     height: 400px; 
     width: 100%; 
+}
+
+/* Footer */
+
+footer li {
+    display: inline;
 }
