@@ -188,7 +188,8 @@ header li:hover {
     height: 600px;
     background-color: #335c18;
     color: white;
-    padding: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #location a {
@@ -260,6 +261,31 @@ header li:hover {
 
 /* Footer */
 
+
+footer {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
+footer ul {
+    padding-right: 5em;
+    padding-bottom: 2em;
+}
+
 footer li {
-    display: inline;
+    display: inline-block;
+    font-size: 1.5em;
+    margin-right: 15px;
+    margin-left: 4em;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer li:hover {
+    background-color: #89CFF0;
 }
