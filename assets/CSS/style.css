@@ -182,8 +182,9 @@ header li:hover {
     width: 100%;
     background-image: url(../images/bckgrd-forest.jpg);
     height: 600px;
-    background-color: #eae9d9;
+    background-color: #335c18;
     color: white;
+    padding: 2%;
 }
 
 #location a {
@@ -192,7 +193,7 @@ header li:hover {
 }
 
 #location-heading {
-    padding-top: 2%;
+    padding-top: 1%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
@@ -213,7 +214,8 @@ header li:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 2%;
+    margin: 1%;
+    overflow: hidden;
 }
 
 #location-content {
