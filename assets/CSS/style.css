@@ -295,6 +295,8 @@ footer li:hover {
 #gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    background-color: #eae9d9 ;
 }
 
 #gallery h1 {
@@ -314,6 +316,7 @@ footer li:hover {
 .catbox img {
     width: 100%;
     height: 100%;
+    border-radius: 8%;
 }
 
 .catbox p {
