@@ -8,167 +8,181 @@
     <meta name="author" content="Aga Tomaszewska">
     <meta name="description" content="Laois Cat Sanctuary cat shelter in Togher, Co. Laois">
     <meta name="keywords" content="cat shelter, adopt a cat, meet cats for adoption, volunteer at cat shelter">
-    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/images/cat-favicon.png">
     <script src="https://kit.fontawesome.com/d0faf7c48b.js" crossorigin="anonymous"></script>
 
     <title>Laois Cat Sanctuary</title>
 </head>
+
 <body>
-    <header>
-        <a href="index.html">
-            <img src="assets/images/logo.PNG" alt="cat sanctuary logo" id="logo"> 
-        </a>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="gallery.html">Meet Our Cats</a></li>
-                <li><a href="signup.html">Volunteer</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="about">
-        <div class="flexbox-center">
-            <div id="about-text">
-                <div class="text-top">
-                    <h1>Welcome to our cat sanctuary</h1>
-                    <p>"Time spent with cats is never 
-                        wasted"</p>
-                    <p><strong>Sigmund Freud</strong></p>
-                </div>
-                <div class="text-bottom">
-                    <h2>The sanctuary is a place where our furry residents found</h2>
-                    <div class="flex-columns">
-                        <div class="column-container">
-                            <h3><i class="fa-solid fa-bowl-food"></i> 
-                                Food & Groom 
-                                <i class="fa-solid fa-bath"></i>
-                            </h3>
-                            <p>
-                                <ul>
-                                    <li>Diet is rich in all ingredients 
-                                        <br> a healthy cat needs</li>
-                                    <li>Help them with their self cleaning routine</li>
-                                </ul>
-                            </p>
-                            </div>
-                        <div class="column-container">
-                            <h3>
-                                <i class="fa-solid fa-heart"></i> 
-                                Love & Play 
-                                <i class="fa-solid fa-volleyball"></i>
-                            </h3>
-                            <p>
-                                <ul>
-                                    <li>Dedicated cat lovers</li>
-                                    <li>Outdoor area and indoor space
-                                        <br>furnished with cat toys</li>
-                                </ul>
-                            </p>
-                        </div>
-                        <div class="column-container">
-                            <h3>
-                                <i class="fa-solid fa-house-chimney"></i> 
-                                Home & Family 
-                                <i class="fa-solid fa-people-roof"></i>
-                            </h3>
-                            <p>
-                                <ul>
-                                    <li>Safe and warm place to live</li>
-                                    <li>Friendly humans and other Cats
-                                        <br>to bond with</li>
-                                </ul>
-                            </p>
-                        </div>
+    <main>
+        <!--Header with logo and nav menu-->
+        <header>
+            <a href="index.html">
+                <img src="assets/images/logo.PNG" alt="cat sanctuary logo" id="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="gallery.html">Meet Our Cats</a></li>
+                    <li><a href="signup.html">Volunteer</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--About section with photo and sanctuary description-->
+        <section id="about">
+            <div class="flexbox-center">
+                <div id="about-text">
+                    <div class="text-top">
+                        <h1>Welcome to our cat sanctuary</h1>
+                        <p>"Time spent with cats is never
+                            wasted"</p>
+                        <p><strong>Sigmund Freud</strong></p>
                     </div>
-                     <p>Safe & sound our furry friends can enjoy a cat's life</p>
+                    <div class="text-bottom">
+                        <h2>The sanctuary is a place where our furry residents found</h2>
+                        <div class="flex-columns">
+                            <div class="column-container">
+                                <h3><i class="fa-solid fa-bowl-food"></i>
+                                    Food & Groom
+                                    <i class="fa-solid fa-bath"></i>
+                                </h3>
+                                <p>
+                                    <ul>
+                                        <li>Diet is rich in all ingredients
+                                            <br> a healthy cat needs</li>
+                                        <li>Help them with their self cleaning routine</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="column-container">
+                                <h3>
+                                    <i class="fa-solid fa-heart"></i>
+                                    Love & Play
+                                    <i class="fa-solid fa-volleyball"></i>
+                                </h3>
+                                <p>
+                                    <ul>
+                                        <li>Dedicated cat lovers</li>
+                                        <li>Outdoor area and indoor space
+                                            <br>furnished with cat toys</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="column-container">
+                                <h3>
+                                    <i class="fa-solid fa-house-chimney"></i>
+                                    Home & Family
+                                    <i class="fa-solid fa-people-roof"></i>
+                                </h3>
+                                <p>
+                                    <ul>
+                                        <li>Safe and warm place to live</li>
+                                        <li>Friendly humans and other Cats
+                                            <br>to bond with</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <p>Safe & sound our furry friends can enjoy a cat's life</p>
+                    </div>
+                </div>
+                <div id="about-photo">
+                    <img src="assets/images/blue-eyes-kittens-about-section.jpg" alt="blue eye kittens photo">
                 </div>
             </div>
-            <div id="about-photo">
-                <img src="assets/images/blue-eyes-kittens-about-section.jpg" alt="blue eye kittens photo">
-            </div>
-        </div>
-        <div id="carousel">
-            <!--1st image-->
-            <div class="carousel-slide">
-                <img src="assets/images/kittens-hay.jpg" alt="3 kittens on hay">
-            </div>
+            <!--Scrollbar with 5 photos and a video-->
+            <div id="carousel">
+                <!--1st image-->
+                <div class="carousel-slide">
+                    <img src="assets/images/kittens-hay.jpg" alt="3 kittens on hay">
+                </div>
                 <!--2nd image-->
-            <div class="carousel-slide">
-                <img src="assets/images/kittens-log.jpg" alt="2 kittens on a tree stump">
-            </div>
-               <!--3rd image-->
-            <div class="carousel-slide">
-                <img src="assets/images/hunting-cat.jpg" alt="cat chasing butterfly">
-            </div>
-              <!--4th image-->
-              <div class="carousel-slide">
-                <img src="assets/images/sleeping-cats.jpg" alt="2 sleeping kittens">
-            </div>
-              <!--video-->
-              <div class="carousel-slide">
-                <video src="assets/video/vid-playing-kittens.mp4" controls>
-            </div>
-        </div>
-    </section>
-    <section id="location">
-        <div id="location-heading">
-            <h2>Location & Contact</h2>
-        </div>
-        <div id="location-container">
-            <div id="location-content">
-                <div class="location-content-box">
-                    <h3>Contact us</h3>
-                    <p>
-                        <i class="fa-solid fa-phone"></i> 089 1234567 <br>
-                        <i class="fa-regular fa-envelope"></i> catsanctuary@laois.ie
-                    <p>
+                <div class="carousel-slide">
+                    <img src="assets/images/kittens-log.jpg" alt="2 kittens on a tree stump">
                 </div>
-                <div class="location-content-box">
-                    <h3>Address</h3>
-                    <p>Togher Woods <br>
-                    Portlaoise <br>
-                    Co.Laois </p>
+                <!--3rd image-->
+                <div class="carousel-slide">
+                    <img src="assets/images/hunting-cat.jpg" alt="cat chasing butterfly">
                 </div>
-                <div class="location-content-box">
-                    <h3>Open Times</h3>
-                    <table class="timetable">
-                        <tr class="text-center">
-                            <th>Visiting Hours</th>
-                        </tr>
-                        <tr>
-                            <td>Saturday</td>
-                            <td>10:00 - 14:00</td>
-                        </tr>
-                        <tr class="text-center">
-                            <th>Contact Hours</th>
-                        </tr>
-                        <tr>
-                            <td>Thu - Sat</td>
-                            <td>10:00 - 14:00</td>
-                        </tr>
-                    </table>
+                <!--4th image-->
+                <div class="carousel-slide">
+                    <img src="assets/images/sleeping-cats.jpg" alt="2 sleeping kittens">
                 </div>
-            </div>>
-            <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2400.7482430266914!2d-7.3254621838780665!3d53.00691100778189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485d0e0ef0a784c3%3A0x17486a02d9178ef2!2sTogher%20Woods!5e0!3m2!1sen!2sie!4v1667667254941!5m2!1sen!2sie" allowfullscreen="" 
-                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!--video-->
+                <div class="carousel-slide">
+                    <video src="assets/video/vid-playing-kittens.mp4" controls>
+                </div>
             </div>
+        </section>
+        <!--Location section with contact details and map-->
+        <section id="location">
+            <div id="location-heading">
+                <h2>Location & Contact</h2>
             </div>
-    </section>
+            <div id="location-container">
+                <div id="location-content">
+                    <div class="location-content-box">
+                        <h3>Contact us</h3>
+                        <p>
+                            <i class="fa-solid fa-phone"></i> 089 1234567 <br>
+                            <i class="fa-regular fa-envelope"></i> catsanctuary@laois.ie
+                            <p>
+                    </div>
+                    <div class="location-content-box">
+                        <h3>Address</h3>
+                        <p>Togher Woods <br>
+                            Portlaoise <br>
+                            Co.Laois </p>
+                    </div>
+                    <div class="location-content-box">
+                        <h3>Open Times</h3>
+                        <table class="timetable">
+                            <tr class="text-center">
+                                <th>Visiting Hours</th>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>10:00 - 14:00</td>
+                            </tr>
+                            <tr class="text-center">
+                                <th>Contact Hours</th>
+                            </tr>
+                            <tr>
+                                <td>Thu - Sat</td>
+                                <td>10:00 - 14:00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>>
+                <div id="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2400.7482430266914!2d-7.3254621838780665!3d53.00691100778189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485d0e0ef0a784c3%3A0x17486a02d9178ef2!2sTogher%20Woods!5e0!3m2!1sen!2sie!4v1667667254941!5m2!1sen!2sie"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Footer with social media icons/links and author-->
     <footer>
         <ul>
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube channel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our youtube channel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram profile (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our instagram profile (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
-        <p>Copyright © AgaToma 2022</p>
+        <p>Built for educational purposes by AgaToma 2022</p>
     </footer>
 </body>
+
 </html>
