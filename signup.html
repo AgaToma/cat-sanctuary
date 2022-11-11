@@ -30,29 +30,58 @@
                 </ul>
             </nav>
         </header>
-        <section>
-
-        </section>
-    </main>
-    <!--Footer with social media icons/links and author-->
-    <footer>
-        <ul>
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our youtube channel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our instagram profile (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-        <p>Built for educational purposes by AgaToma 2022</p>
-    </footer>
+        <main>
+            <section>
+                <form action="https://formdump.codeinstitute.net/" method="POST">
+                    <h1>Our cats are waiting for you</h1>
+                    <fieldset>
+                        <legend>Your personal details</legend>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required><br>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required><br>
+                        <label for="phone">Enter your phone number:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Volunteering preferences</legend>
+                        <span title="Carers look after the cats, for example feed and groom them">
+                            <label for="role">Carer</label>
+                            <input type="radio" id="carer" name="role">
+                        </span>
+                        <span title="Admins look after any administrative tasks, for example scheduling or website">
+                            <label for="role">Admin</label>
+                            <input type="radio" id="admin" name="role">
+                        </span>
+                        <label for="role">Both</label>
+                        <input type="radio" id="both" name="role"><br>
+                        <label for="comments">Your comments/requests</label><br>
+                        <textarea name="comments" rows="10" cols="40"></textarea>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <!--Footer with social media icons/links and author-->
+        <footer>
+            <ul>
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our facebook page (opens in a new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our youtube channel (opens in a new tab)"><i
+                            class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our instagram profile (opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+            <p>Built for educational purposes by AgaToma 2022</p>
+        </footer>
 </body>
 
 </html>
