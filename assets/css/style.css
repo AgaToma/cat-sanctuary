@@ -322,3 +322,25 @@ footer li:hover {
     line-height: 2em;
     font-size: 1.5em;
 }
+
+/* Signup */
+
+#signup-container {
+    background-image: url("../images/signup-background.jpg");
+    background-color: #335c18;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    color:white
+}
+
+#signup-container form {
+    background-color: rgba(126, 103, 106, 0.6);
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 15%;
+    padding: 1%;
+    float: left;
+    
+    
+}
