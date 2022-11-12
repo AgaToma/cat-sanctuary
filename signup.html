@@ -36,11 +36,11 @@
                     <fieldset>
                         <legend>Your personal details</legend>
                         <label for="name" class="font-bold">Name</label>
-                        <input type="text" id="name" name="name" required><br>
+                        <input type="text" id="name" name="name" class="orange-border" required><br>
                         <label for="email" class="font-bold">Email</label>
-                        <input type="email" id="email" name="email" required><br>
+                        <input type="email" id="email" name="email" class="orange-border" required><br>
                         <label for="phone" class="font-bold">Phone</label>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        <input type="tel" id="phone" name="phone" class="orange-border" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                     </fieldset>
                     <fieldset>
                         <legend>Volunteering preferences</legend>
@@ -55,8 +55,9 @@
                         <label for="role" class="font-bold">Both</label>
                         <input type="radio" id="both" name="role"><br>
                         <label for="comments">Your comments/requests</label><br>
-                        <textarea name="comments" id="comments" rows="10" cols="40"></textarea>
+                        <textarea name="comments" id="comments" rows="10" cols="40" class="orange-border"></textarea>
                     </fieldset>
+                    <button type="submit" class="font-bold">Submit to volunteer</button>
                 </form>
             </section>
         </main>
