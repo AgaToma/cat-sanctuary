@@ -185,16 +185,12 @@ header li:hover {
     width: 100%;
     background-image: url(../images/bckgrd-forest.jpg);
     height: 600px;
-    background-color: #335c18;
+    background-color: #45811c;
     color: white;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
-#location a {
-    text-decoration: none;
-    color: #eae9d9;
-}
 
 #location-heading {
     padding-top: 1%;
@@ -327,20 +323,51 @@ footer li:hover {
 
 #signup-container {
     background-image: url("../images/signup-background.jpg");
-    background-color: #335c18;
+    background-color: #45811c;
     background-size: cover;
-    height: 800px;
+    height: 900px;
     width: 100%;
     color:white
+    
+}
+
+#signup-container h1 {
+    padding-bottom: 1%;
+}
+
+#signup-container legend {
+    font-size: 1.2em;
+}
+
+#signup-container h1, legend {
+    font-family: 'Yeseva One', cursive;
+}
+
+.font-bold {
+    font-weight: bold;
 }
 
 #signup-container form {
-    background-color: rgba(126, 103, 106, 0.6);
-    text-align: center;
-    margin-top: 6%;
+    background-image: linear-gradient(rgba(70, 58, 60, 0.6), rgba(126, 103, 106, 0.6));
+    width: 35%;
+    margin-top: 3%;
     margin-left: 15%;
     padding: 1%;
     float: left;
-    
-    
+    font-size: 1.5em;
+    line-height: 2em;
+    text-align: center;
+    letter-spacing: 0.1em;
 }
+
+#signup-container #name, #email, #phone {
+    height: 2em;
+    width: 60%;
+    background-color: rgba(189, 221, 186, 0.6);
+}
+
+#signup-container #comments {
+    width: 80%; 
+    background-color: rgba(189, 221, 186, 0.6);
+}
+
