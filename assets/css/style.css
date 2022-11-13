@@ -70,6 +70,7 @@ header li:hover {
 
 #about {
     background-color: #eae9d9;
+    height: 1190px;
 }
 
 .flexbox-center {
@@ -86,55 +87,58 @@ header li:hover {
 
 #about-text {
     width: 60%;
-    height: 600px;
-    position: relative;
+    height: 650px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    z-index: 1;
 }
 
 .text-top {
-    position: absolute;
-    top: 5%;
-    right: 2%;
+    margin-top: 2%;
     line-height: 4em;
-}
-
-.text-top h2 {
-    font-size: 3em;
-    font-style: italic;
+    padding-bottom: 5%;
 }
 
 .text-top h1 {
     text-align: right;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
-.text-top p {
+#freud {
     text-align: right;
+    font-size: 1em;
+}
+
+.quote {
+    text-align: right;
+    font-size: 1.5em;
+    font-style: italic;
 }
 
 .text-bottom {
-    position: absolute;
-    bottom: 5%;
+    bottom: 2%;
     right: 2%;
     line-height: 4em;
 }
 
 .text-bottom h2 {
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1.5em;
+    padding-bottom: 2%;
 }
 
 .flex-columns {
     display: flex;
-    justify-content: space-evenly;
-    margin-right: 300px;
-    margin-left: 100px;
-    width: 120%;
-
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 
 #about-photo {
     width: 40%;
-    height: 600px;
+    height: 650px;
     display: flex;
     justify-content: flex-end;
 }
@@ -152,6 +156,12 @@ header li:hover {
 .column-container li {
     font-size: 1.3em;
     list-style-type: none;
+}
+
+.text-bottom p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 /* Carousel */
