@@ -146,7 +146,7 @@ header li:hover {
 .column-container {
     inline-size: 40%;
     line-height:2.5em;
-    overflow: wrap;
+    overflow-wrap: break-word;
 }
 
 .column-container h3 {
@@ -175,8 +175,9 @@ header li:hover {
     overflow-x: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+    height: 520px;
 }
-
+ 
 .carousel-slide {
     position: relative;
 }
@@ -184,13 +185,11 @@ header li:hover {
 #carousel img {
     height: 500px;
     border-radius: 16px;
-    z-index: 3;
 }
 
 #carousel video {
     height: 500px;
     border-radius: 16px;
-    z-index: 3;
 }
 
 /* Contact-location section */
