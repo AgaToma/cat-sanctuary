@@ -89,7 +89,6 @@ header li:hover {
     width: 60%;
     height: 650px;
     display: flex;
-    align-items: stretch;
     flex-direction: column;
     z-index: 1;
 }
@@ -173,6 +172,7 @@ header li:hover {
     left: 0;
     display: flex;
     overflow-x: scroll;
+    overflow-y: clip;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     height: 520px;
@@ -416,4 +416,78 @@ footer li:hover {
     border-color: rgb(206, 139, 15);
 }
 
+/*Screen size below 1500px*/
+@media screen and (max-width: 1500px) {
+    /*About section*/
+    #about {
+        background-color: #eae9d9;
+        height: 990px;
+    }
 
+    #about-text {
+        width: 50%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+    }
+
+    .flex-columns {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-left: 6%;
+        margin-bottom: 2%;
+    }
+    
+    .column-container {
+        inline-size: 40%;
+        line-height: 2.2em;
+        padding-right: 2%;
+    }
+
+    .column-container li {
+        font-size: 1.2em;
+        list-style-type: none;
+    }
+
+    .text-bottom p {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-top: 2%;
+    }
+    
+    #about-photo {
+        width: 50%;
+        height: 600px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #carousel {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: clip;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        height: 370px;
+    }
+    
+    #carousel img {
+        height: 350px;
+        border-radius: 16px;
+        z-index: 3;
+    }
+    
+    #carousel video {
+        height: 350px;
+        border-radius: 16px;
+        z-index: 3;
+    }
+
+}
