@@ -249,6 +249,16 @@ header li:hover {
     font-family: 'Yeseva One', cursive;
     letter-spacing: 0.1em;
 }
+
+.location-content-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.location-content-box a:hover {
+    background-color: rgba(137, 224, 129, 0.6);
+}
+
 .timetable {
     width: 100%;
 }
