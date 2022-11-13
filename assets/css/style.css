@@ -334,7 +334,7 @@ footer li:hover {
 .catbox img {
     width: 100%;
     height: 100%;
-    border-radius: 8%;
+    border-radius: 16px;
 }
 
 .catbox p {
@@ -490,4 +490,41 @@ footer li:hover {
         z-index: 3;
     }
 
+}
+
+@media screen and (min-width: 320px) {
+   
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: wrap;
+    }
+   
+    header li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 5%;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    header a {
+        text-decoration: none;
+        color: black;
+        flex: 50%;
+    }
+
+    #logo {
+        width: 80%;
+        padding-left: 5%;
+        padding-top: 10%;
+    }
+
+    nav {
+        /*As flex container*/
+        display: flex;
+        flex-direction: column;
+        /*As flex item*/
+        flex: 40%;
+    }
 }
