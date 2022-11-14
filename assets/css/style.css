@@ -527,4 +527,148 @@ footer li:hover {
         /*As flex item*/
         flex: 40%;
     }
+
+    #about {
+        background-color: #eae9d9;
+        height: 1170px;
+        display: flex;
+        flex-direction: column;
+    }
+    .flexbox-center {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 1%;
+    }
+    #about-text {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        flex: 100%;
+    }
+    .text-top h1 {
+        text-align: center;
+        font-size: 1.1em;
+    }
+    .quote {
+        text-align: center;
+        font-size: 1em;
+        font-style: italic;
+    }
+    #freud {
+        text-align: right;
+        font-size: 0.8em;
+        padding-right: 5%;
+    }
+    .text-top {
+        margin-top: 2%;
+        line-height: 2em;
+        padding-bottom: 5%;
+    }
+    .text-bottom {
+        bottom: 2%;
+        right: 2%;
+        line-height: 2em;
+    }
+    .text-bottom h2 {
+        text-align: center;
+        font-size: 1em;
+        padding-bottom: 2%;
+    }
+    .flex-columns {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: 6%;
+        margin-bottom: 2%;
+        margin-right: 6%;
+    }
+    .column-container {
+        line-height: 1.5em;
+        padding-right: 2%;
+        flex: 100%;
+    }
+    .column-container h3 {
+        font-size: 1em;
+        text-align: center;
+    }
+    .column-container li {
+        font-size: 1em;
+        list-style-type: none;
+        text-align: center;
+    }
+    .text-bottom p {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+        padding-top: 2%;
+    }
+    #about-photo {
+        height: 300px;
+        display: flex;
+        flex: 100%;
+        text-align: center;
+    }
+    #carousel {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: clip;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        height: 270px;
+    }
+    #carousel img {
+        height: 250px;
+        border-radius: 16px;
+        z-index: 3;
+    }
+    #carousel video {
+        height: 250px;
+        border-radius: 16px;
+        z-index: 3;
+    }
+    #location {
+        width: 100%;
+        background-image: url(../images/bckgrd-forest.jpg);
+        height: 750px;
+        background-color: #45811c;
+        color: white;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    #location-container {
+        height: 500px;
+        display: flex;
+        margin: 1%;
+        flex-wrap: wrap;
+    }
+
+    #location-content {
+        line-height: 1.5em;
+        font-size: 1.2em;
+        flex: 50%;
+    }
+
+    #map {
+        height: 250px;
+        flex: 60%;
+        width: 100%;
+    }
+    footer ul {
+        padding-bottom: 2em;
+        padding-right: 0;
+    }
+
+    footer li {
+        display: inline;
+        font-size: 1.5em;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    
 }
