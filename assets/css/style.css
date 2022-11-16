@@ -492,12 +492,11 @@ footer li:hover {
 
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 430px) {
    
     header {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: wrap;
     }
    
     header li {
@@ -631,6 +630,8 @@ footer li:hover {
         border-radius: 16px;
         z-index: 3;
     }
+
+    /* Location section*/
     #location {
         width: 100%;
         background-image: url(../images/bckgrd-forest.jpg);
@@ -641,8 +642,16 @@ footer li:hover {
         padding-bottom: 2%;
     }
 
+    #location-heading h2 {
+        margin-top: 1%;
+        padding: 2%;
+        background-color: rgba(126, 103, 106, 0.6);
+        font-size: 2em;
+        display: none;
+    }
+
     #location-container {
-        height: 500px;
+        height: 700px;
         display: flex;
         margin: 1%;
         flex-wrap: wrap;
@@ -659,6 +668,20 @@ footer li:hover {
         flex: 60%;
         width: 100%;
     }
+
+    #map {
+        height: 300px;
+        width: 100%;
+        padding-left: 1%;
+    }
+
+    #map iframe {
+        height: 300px;
+        width: 98%;
+        overflow: visible;
+    }
+
+    /* Footer */
     footer ul {
         padding-bottom: 2em;
         padding-right: 0;
@@ -671,4 +694,28 @@ footer li:hover {
         margin-left: 1em;
     }
     
+}
+
+/* Gallery */
+
+.catbox {
+    width: 30%;
+    height: 20%;
+    padding: 5%;
+    flex: 100%;
+}
+
+.catbox p {
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+/* Signup */
+
+#signup-container form {
+    background-image: linear-gradient(rgba(70, 58, 60, 0.6), rgba(126, 103, 106, 0.6));
+    padding: 2%;
+    line-height: 2em;
+    text-align: center;
+    letter-spacing: 0.1em;
 }
