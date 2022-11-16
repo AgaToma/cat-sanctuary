@@ -718,4 +718,21 @@ footer li:hover {
     line-height: 2em;
     text-align: center;
     letter-spacing: 0.1em;
+    /* Had to add this code, otherwise media query would not apply */
+    width: auto;
+    margin-top: 3%;
+    margin-left: 0;
+    float: none;
+    font-size: 1em;
+}
+
+#signup-container {
+    background-image: url(../images/signup-background.jpg);
+    background-color: #45811c;
+    background-size: cover;
+    background-position: center bottom;
+    height: 550px;
+    width: 100%;
+    color: white;
+    padding-top: 2%;
 }
