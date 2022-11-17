@@ -492,7 +492,7 @@ footer li:hover {
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 430px) {
+@media screen and (max-width: 430px) {
    
     header {
         display: flex;
@@ -694,7 +694,6 @@ footer li:hover {
         margin-left: 1em;
     }
     
-}
 
 /* Gallery */
 
@@ -735,4 +734,5 @@ footer li:hover {
     width: 100%;
     color: white;
     padding-top: 2%;
+}
 }
