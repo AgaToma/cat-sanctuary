@@ -958,30 +958,30 @@ legend {
 
 @media screen and (max-width: 751px) {
 
-#signup-container form {
-    background-image: linear-gradient(rgba(70, 58, 60, 0.6), rgba(126, 103, 106, 0.6));
-    padding: 2%;
-    line-height: 2em;
-    text-align: center;
-    letter-spacing: 0.1em;
-    /* Had to add this code, otherwise media query would not apply */
-    width: auto;
-    margin-top: 3%;
-    margin-left: 0;
-    float: none;
-    font-size: 1em;
-}
+    #signup-container form {
+        background-image: linear-gradient(rgba(70, 58, 60, 0.6), rgba(126, 103, 106, 0.6));
+        padding: 2%;
+        line-height: 2em;
+        text-align: center;
+        letter-spacing: 0.1em;
+        /* Had to add this code, otherwise media query would not apply */
+        width: auto;
+        margin-top: 3%;
+        margin-left: 0;
+        float: none;
+        font-size: 1em;
+    }
 
-#signup-container {
-    background-image: url(../images/signup-background.jpg);
-    background-color: #45811c;
-    background-size: cover;
-    background-position: center bottom;
-    height: 550px;
-    width: 100%;
-    color: white;
-    padding-top: 2%;
-}
+    #signup-container {
+        background-image: url(../images/signup-background.jpg);
+        background-color: #45811c;
+        background-size: cover;
+        background-position: center bottom;
+        height: 550px;
+        width: 100%;
+        color: white;
+        padding-top: 2%;
+    }
 }
 
 /* Viewport between 320px - 430 px*/
@@ -1020,9 +1020,11 @@ legend {
         flex: 40%;
     }
 
+    /*About section*/
+
     #about {
         background-color: #eae9d9;
-        height: 1170px;
+        height: 1080px;
         display: flex;
         flex-direction: column;
     }
@@ -1034,7 +1036,7 @@ legend {
     }
 
     #about-text {
-        height: 600px;
+        height: 500px;
         display: flex;
         flex-direction: column;
         z-index: 1;
@@ -1171,12 +1173,6 @@ legend {
         line-height: 1.5em;
         font-size: 1.2em;
         flex: 50%;
-    }
-
-    #map {
-        height: 250px;
-        flex: 60%;
-        width: 100%;
     }
 
     #map {
