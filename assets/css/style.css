@@ -6,13 +6,13 @@
 }
 
 body {
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: black;
 }
 
 h1,
 h2 {
-    font-family: 'Yeseva One', cursive;
+    font-family: "Yeseva One", cursive;
 }
 
 body a:hover {
