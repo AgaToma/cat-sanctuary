@@ -80,52 +80,95 @@ The gallery provides user the opportunity to individually see the cats living in
 ![Gallery](docs/readme-images/gallery.JPG)
 
 <h2>Sign up form - Volunteer</h2>
-(description, form features)
+The responsive sign up form allows users to enter their contact information and role preferences. It consists of two fieldsets with the below fields:
+<ul>
+    <li><h3>Fieldset for personal details </h3></li>
+        <ul>
+            <li><h4>Name</h4></li>
+            Required field, input type = text
+            <li><h4>Email</h4></li>
+            Required field, input type = email
+            <li><h4>Phone</h4></li>
+            Required field, input type = phone
+        </ul>
+    <li><h3>Fieldset for volunteering preferences</h3></li>
+        3 radio buttons allow user to select what type of role they volunteer for
+        <ul>
+            <li><h4>Carer</h4></li>
+            When hovering over the word "Carer" a short description of the role is displayed
+            <li><h4>Admin</h4></li>
+            When hovering over the word "Admin" a short description of the role is displayed
+            <li><h4>Both</h4></li>
+            <li><h4>Comments field </h4></li>
+            Voluntary field, input is not required
+        </ul>
+<ul>
+   If user doesn't fillout the required fields or inputs data in a wrong format, they will not be able to submit the form
+   Upon submitting the form is redirected to Code Institute form dump site, where a set of submitted data is displayed. In future deployments this would be replaced by a "Thank you" page and user data would be sent to a database.  
 
-Features summary - responsive design, customized cursor, photo/video scroll section, responsive sign up form 
+![Signup](docs/readme-images/signup.JPG)
 
-Features to be developed in future deployments
+<h2>Current features summary</h2>
+
+responsive design, customized cursor, photo/video scroll section, responsive sign up form 
+
+<h2>Features to be developed in future deployments</h2>
+
 Bootstrap carousel instead of horizontal scroll bar
 Adopt me & Meet me buttons for gallery
 Newsletter signup for events, needed donations etc. 
 
-Design - add photos of notebook sketches
+<h1>Design</h1>
 
-Technologies
-HTML
-The structure of the Website was developed using HTML as the main language.
-CSS
-The Website was styled using custom CSS in an external file.
-Gitpod
-The website was developed using Gitpod in Chrome
-GitHub
-Source code is hosted on GitHub and delpoyed using Git Pages.
-Git
-Used to commit and push code during the development opf the Website
-Font Awesome
-Icons used on Home page & favicon were from https://fontawesome.com/ 
-Tinyjpg
-https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
-Canva
-Logo was created using https://www.canva.com/
-Color palette
-Color pallette was generated with http://colormind.io/ 
+add photos of notebook sketches
 
-Testing (Accessibility, SEO)
+<h1>Technologies</h1>
+<ul>
+    <li>HTML</li>
+    The structure of the Website was developed using HTML as the main language.
+    <li>CSS</li>
+    The Website was styled using custom CSS in an external file.
+    <li>Gitpod</li>
+    The website was developed using Gitpod in Chrome
+    <li>GitHub</li>
+    Source code is hosted on GitHub and deployed using Git Pages.
+    <li>Git</li>
+    Used to commit and push code during the development of the Website
+    <li>Font Awesome</li>
+    Icons used on Home page & favicon were from https://fontawesome.com/ 
+    <li>Tinyjpg</li>
+    https://tinyjpg.com/ was used to reduce the size of the images 
+    <li>Canva</li>
+    Logo was created using https://www.canva.com/
+    <li>Colormind</li>
+    Color pallette was generated with http://colormind.io/ 
+</ul>
 
-Credits
-Navbar menu reference:
-https://dev.to/jungjungie/create-a-navbar-with-css-flexbox-2leh 
-https://www.w3schools.com/css/css_navbar_horizontal.asp
-Custom mouse coursor:
-https://blog.logrocket.com/creating-custom-mouse-cursor-css/
-https://www.w3schools.com/CSSref/pr_class_cursor.php
+<h1>Testing</h1> 
+
+Accessibility, SEO, validators, lighthouse?
 
 Lenovo Tab M10
 
-Content
+<h1>Deployment</h1>
+
+<h1>Credits</h1>
+<h2>References</h2>
+Used the below resources for reference and help.
+<h3>Navbar menu</h3>
+https://dev.to/jungjungie/create-a-navbar-with-css-flexbox-2leh <br>
+https://www.w3schools.com/css/css_navbar_horizontal.asp
+<h3>Custom mouse coursor</h3>
+https://blog.logrocket.com/creating-custom-mouse-cursor-css/ <br>
+https://www.w3schools.com/CSSref/pr_class_cursor.php
+<h3>General</h3>
+Stack Overflow <br>
+https://www.w3schools.com/css/ <br>
+https://developer.mozilla.org/en-US/docs/Web/CSS/
+
+<h2>Content</h2>
 Content of the website is fictional and was created for educational purposes of building the website by it's author (Aga Tomaszewska)
 
-Media
+<h2>Media</h2>
 Photos were taken from unsplash & pexels (free to use) & own resources (sleeping-cats.jpg).
 Permission to use the video was obtained from the author Magda Muras. 
