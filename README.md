@@ -1,11 +1,26 @@
 ![Laois Cat Sanctuary logo](assets/images/logo.PNG)
 
-Site description
+<h1>Site description</h1>
+This website was designed and built for educational purposes and is about a fictional cat shelter - Laois Cat Sancturary, the idea of which was created for the purpose of this project. The website is to allow users to find information about the shelter's profile, scope of activities, animals in their care and location. The purpose is also to encourage new volunteers to sign up and support the shelter. It's a static, responsive website built with HTML & CSS as basic technologies at this time, further features can be added at later time with Javascript and a database.  
 
-Multidevice mockup
+![Multidevice mockup](docs/readme-images/mockup.jpg)
 
-Features 
-Site wide (Header, footer, nav, social media links, favicon, customized cursor)
+<h1>Features</h1> 
+<h2>Site wide</h2>
+<ul>
+    <li><h3>Favicon</h3></li>
+    ![Favicon](docs/readme-images/favicon.JPG) 
+    Cat favicon will help the user identify the website quickly, when having multiple tabs open in the browser.
+    <li><h3>Customized mouse cursor hover over links</h3></li>
+    ![Cursor](assets/images/paw-solid.svg)
+    When hovering over links the mouse courses takes on the shape of an animal paw, which makes the feel of the website more cat like and helps the user get into the right mood. 
+    <li><h3>Navigation menu in the header</h3></li>
+    ![Navbar](docs/readme-images/navbar.JPG)
+    The responsive navigation menu contains links to Home, Meet the cats (gallery page) and Volunteer (Signup form page), which enables the user to easily navigate between pages from any of them. The active class helps to orientate the user on the current location (page). 
+    <li><h3>Social media links in the footer</h3></li>
+    ![Footer]
+    Social media links in the form of well known brand icons of Facebook, Youtube and Instagram can be access from any page on the site. When clicked they open in a separate browser window, which enables the user to open more than one site at the same time. 
+</ul>
 Landing page (description, sections)
 Gallery - Meet the cats (description, photos) 
 Sign up form - Volunteer (description, form features)
