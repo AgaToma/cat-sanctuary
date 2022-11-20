@@ -9,18 +9,33 @@ This website was designed and built for educational purposes and is about a fict
 <h2>Site wide</h2>
 <ul>
     <li><h3>Favicon</h3></li>
-    ![Favicon](docs/readme-images/favicon.JPG) 
     Cat favicon will help the user identify the website quickly, when having multiple tabs open in the browser.
-    <li><h3>Customized mouse cursor hover over links</h3></li>
-    ![Cursor](assets/images/paw-solid.svg)
-    When hovering over links the mouse courses takes on the shape of an animal paw, which makes the feel of the website more cat like and helps the user get into the right mood. 
-    <li><h3>Navigation menu in the header</h3></li>
-    ![Navbar](docs/readme-images/navbar.JPG)
-    The responsive navigation menu contains links to Home, Meet the cats (gallery page) and Volunteer (Signup form page), which enables the user to easily navigate between pages from any of them. The active class helps to orientate the user on the current location (page). 
-    <li><h3>Social media links in the footer</h3></li>
-    ![Footer]
-    Social media links in the form of well known brand icons of Facebook, Youtube and Instagram can be access from any page on the site. When clicked they open in a separate browser window, which enables the user to open more than one site at the same time. 
+    
 </ul>
+
+ ![Favicon](docs/readme-images/favicon.JPG) 
+
+<ul>
+    <li><h3>Customized mouse cursor hover over links</h3></li>
+    When hovering over links the mouse courses takes on the shape of an animal paw, which makes the feel of the website more cat like and helps the user get into the right mood. 
+</ul>
+   
+ ![Cursor](docs/readme-images/cursor.JPG)
+
+<ul>
+    <li><h3>Navigation menu in the header</h3></li>
+    The responsive navigation menu contains links to Home, Meet the cats (gallery page) and Volunteer (Signup form page), which enables the user to easily navigate between pages from any of them. The active class helps to orientate the user on the current location (page). 
+</ul>
+
+![Navbar](docs/readme-images/navbar.JPG)
+
+<ul>
+    <li><h3>Social media links in the footer</h3></li>
+    Social media links in the form of well known brand icons of Facebook, Youtube and Instagram can be access from any page on the site. When clicked they open in a separate browser window, which enables the user to open more than one site at the same time.  
+</ul>
+    
+![Footer](docs/readme-images/footer.JPG) 
+
 Landing page (description, sections)
 Gallery - Meet the cats (description, photos) 
 Sign up form - Volunteer (description, form features)
