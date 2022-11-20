@@ -36,10 +36,51 @@ This website was designed and built for educational practice and is about a fict
     
 ![Footer](docs/readme-images/footer.JPG) 
 
-<h1>Landing page</h1>
- (description, sections)
-Gallery - Meet the cats (description, photos) 
-Sign up form - Volunteer (description, form features)
+<h2>Landing page - Home</h2>
+<ul>
+    <li><h3>About text and photo</h3></li>
+    This section provides description of what the sanctuary's purpose and scope of activities. It also contains an image of blue eyed cats to add impact to the message. 
+</ul>
+
+![About](docs/readme-images/about.JPG)
+
+<ul>
+    <li><h3>Scrollbar with images & video</h3></li>
+    Scrollbar with four images and a video provides a user controlled experience, where user can get further context around cat's life in the shelter. The video is fully user controlled - can be expanded to be viewed in full screen mode, muted, played, paused stopped by the user. In future deployments scrollbar can potentially be replaced with a bootstrap carousel for even better visual experience.
+</ul>
+
+![Carousel](docs/readme-images/carousel.JPG)
+![Carousel](docs/readme-images/carousel2.JPG)
+
+<ul>
+    <li><h3>Location section</h3></li>
+    Location section provides the user with contact information, address and open times schedule, so that the user can easily contact or find the sanctuary. It contains the below features for better user experience:
+    <ul>
+        <li><h4>Direct call feature (href="tel: telephonenumber")</h4></li>
+        This feature is especially useful for mobile users, who can call the sanctuary directly by clicking the phone number from the locaton section. When user hovers over the phone number is highlighted and coursor changes to a paw to let user know that action is available. 
+    </ul>
+    <ul>
+        <li><h4>Direct email feature (href="mailto: emailaddress")</h4></li>
+        This feature is especially useful for users, who want to be able to quickly open email message editor with sanctuary's address preinserted for convenience. When user hovers over the email address is highlighted and coursor changes to a paw to let user know that action is available. 
+    </ul>
+    <ul>
+        <li><h4>Google map</h4></li>
+        User is able to see the location on an embedded google map. Google map has +/- buttons for user to scale it for their convenience, it also has "View larger map" option, which when clicked opens the map in a separate tab providing user the option to use further google map features. There is also a direct link for "Directions", which again open google maps in a separate browser tab, where user can get
+    </ul>
+</ul>
+
+![Location](docs/readme-images/location.JPG)
+![Large_map](docs/readme-images/large-google-map.JPG)
+![Directions](docs/readme-images/directions.JPG)
+
+
+<h2>Gallery - Meet the cats</h2>
+The gallery provides user the opportunity to individually see the cats living in the shelter and get to know them a bit better by seeing their images along with their names and short description with the ultimate purpose of encouraging the user to come to the sanctuary and visit the cat they particularly like. In future deployments "Meet Me" and "Adopt Me" buttons linked to forms and a database would be added to enhance this experience and call user to action in an even more impactful way.
+
+![Gallery](docs/readme-images/gallery.JPG)
+
+<h2>Sign up form - Volunteer</h2>
+(description, form features)
 
 Features summary - responsive design, customized cursor, photo/video scroll section, responsive sign up form 
 
