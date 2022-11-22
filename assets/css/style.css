@@ -150,6 +150,10 @@ header li:hover {
     overflow-wrap: break-word;
 }
 
+.column-container-list {
+    display: block; 
+}
+
 .column-container h3 {
     font-size: 1.3em;
 }
@@ -157,6 +161,7 @@ header li:hover {
 .column-container li {
     font-size: 1.3em;
     list-style-type: none;
+    padding-right: 2%;
 }
 
 .text-bottom p {
