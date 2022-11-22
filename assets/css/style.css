@@ -249,7 +249,7 @@ header li:hover {
     background-color: rgba(126, 103, 106, 0.6);
     text-align: center;
     margin: 1%;
-    padding: 1%;
+    padding: 2%;
 }
 
 .location-content-box h3 {
@@ -1194,13 +1194,13 @@ legend {
     }
 
     #map {
-        height: 90%;
+        height: 300px;
         width: 100%;
         padding-left: 1%;
     }
 
     #map iframe {
-        height: 300px;
+        height: 270px;
         width: 98%;
         overflow: visible;
     }
