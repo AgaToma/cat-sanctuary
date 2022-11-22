@@ -787,6 +787,9 @@ legend {
         line-height: 1.5em;
         padding-right: 2%;
         flex: 100%;
+        margin-bottom:2%;
+        margin-top: 2%;
+
     }
 
     .column-container h3 {
@@ -1104,6 +1107,8 @@ legend {
         line-height: 1.5em;
         padding-right: 2%;
         flex: 100%;
+        margin-bottom:2%;
+        margin-top: 2%;
     }
 
     .column-container h3 {
