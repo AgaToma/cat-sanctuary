@@ -148,8 +148,47 @@ add photos of notebook sketches
 
 <h1>Testing</h1> 
 <h2>Responsiveness</h2>
+
+<h3>Devices the site was tested on for responsiveness (no issues found)</h3>
+<p>Notebook Asus E406M + external Dell monitor</p>
+<p>Notebook Asus E406M</p>
+<p>Tablet Lenovo Tab M10</p>
+<p>Phone XR</p>
+<p>Samsung Galaxy 8+</p>
+
+<h4>Browsers: Chrome, Edge, Firefox, Safari</h4>
+
 <h2>Accessibility</h2>
+
+Tested with [Wave](https://wave.webaim.org/) - Web Accessibility Evaluation Tool.
+<p>Care was taken throughout the project to ensure accessibility via</p>
+<ul>
+    <li>aria labels were added to all external links</li>
+    <li>alternative text was added to non backround images</li>
+    <li>description was added between video tags</li>
+    <li>using a balanced color pallette to ensure user friendly contrast</li>
+</ul>
+
+<p>During testing of the completed signup form and error was found where orange submit button combined with white bold text was not meeting contrast criteria, this was fixed by changing button color to darker green, after which the button passed the accessibility test.</p>
+<p>No other errors were found</p>
+
+![Wave_results](docs/testing-images/wave-results.JPG)
+
+<p>There are 2 alerts showing, however</p>
+<ol>
+    <li>It is intent of the author to have the home page link present both under logo and on the navbar</li>
+    <li>There is only background music in the video and description was added between the video tags</li>
+</ol>
+
+
 <h2>Lighthouse testing</h2>
+
+![Index](docs/testing-images/lighthouse-index.JPG)
+
+![Gallery](docs/testing-images/lighthouse-gallery.JPG)
+
+![Signup](docs/testing-images/lighthouse-signup.JPG)
+
 <h2>Functional testing</h2>
 
 ![Testing capture](docs/testing-images/Functional%20testing.JPG)
@@ -158,16 +197,9 @@ add photos of notebook sketches
 
 <h3>Fixes applied during final functional testing</h3>
 
-Fix1 - Homepage - Resized About section to ensure carousel scrollbar is not hidden behing Location section content 
-Fix2 - Volunteer form - Required value was missing from Role selection radio options - added required
+<p>Fix1 - Homepage - Resized About section to ensure carousel scrollbar is not hidden behing Location section content</p>
+<p>Fix2 - Volunteer form - Required value was missing from Role selection radio options - added required</p>
 
-
-<h3>Devices the site was tested on</h3>
-<p>Notebook Asus E406M + external Dell monitor</p>
-<p>Notebook Asus E406M</p>
-<p>Tablet Lenovo Tab M10</p>
-<p>Phone XR</p>
-<p>Samsung Galaxy 8+</p>
 
 <h2>Validator testing</h2>
 
