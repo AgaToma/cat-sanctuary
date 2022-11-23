@@ -142,6 +142,8 @@ add photos of notebook sketches
     Logo was created using https://www.canva.com/
     <li>Colormind</li>
     Color pallette was generated with http://colormind.io/ 
+    <li>Convertio</li>
+    JPG format gallery photos were converted to webp using https://convertio.co/jpg-webp/ 
 </ul>
 
 <h1>Testing</h1> 
@@ -152,18 +154,44 @@ add photos of notebook sketches
 
 ![Testing capture](docs/testing-images/Functional%20testing.JPG)
 
-<a href="https://docs.google.com/spreadsheets/d/1P0aYNtvpA9QDwnZXACqm3CdlsmWsdYgggPdPFDCIM2Q/edit#gid=0"
->Document can be viewed here</a>
+[Document can be viewed here](https://docs.google.com/spreadsheets/d/1P0aYNtvpA9QDwnZXACqm3CdlsmWsdYgggPdPFDCIM2Q/edit?usp=sharing)
 
-<h3>Devices the site was tested on<h3>
-Notebook Asus E406M + external Dell monitor
-Notebook Asus E406M
-Tablet Lenovo Tab M10
-iPhone XR
-Samsung Galaxy 8+
+<h3>Fixes applied during final functional testing</h3>
+
+Fix1 - Homepage - Resized About section to ensure carousel scrollbar is not hidden behing Location section content 
+Fix2 - Volunteer form - Required value was missing from Role selection radio options - added required
+
+
+<h3>Devices the site was tested on</h3>
+<p>Notebook Asus E406M + external Dell monitor</p>
+<p>Notebook Asus E406M</p>
+<p>Tablet Lenovo Tab M10</p>
+<p>Phone XR</p>
+<p>Samsung Galaxy 8+</p>
 
 <h2>Validator testing</h2>
 
+<h3>HTML</h3>
+
+Website was tested with [W3C validator](https://validator.w3.org/).
+
+Initially, the following results were returned for index.html:
+<ol>
+    <li>Error: Unordered list on lines 51, 62, 73 were wrapped in paragraph tags. Fix: paragraph tags were removed and desired styling was applied via CSS.</li>
+    <li>Alert: Table headings from address table in location section were not in the same table rows. Fix: moved second table heading to the same row as first table heading</li>
+</ol> 
+
+Test was rerun and returned the following results without errors and alerts for all pages on the site
+
+![Index](docs/testing-images/html-validation-index.JPG)
+![Gallery](docs/testing-images/html-validation-gallery.JPG)
+![Signup](docs/testing-images/html-validation-signup.JPG)
+
+<h3>CSS</h3>
+
+Website was tested with [W3C jigsaw validator](https://jigsaw.w3.org/css-validator/). No errors were returned. 
+
+![CSS](docs/testing-images/css-validated.JPG)
 
 <h1>Deployment</h1>
 
