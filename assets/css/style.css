@@ -411,9 +411,10 @@ legend {
     padding-left: 2%;
     padding-right: 2%;
     font-size: 1em;
-    background-color: rgb(206, 139, 15);
+    background-color: #16461F;
     color: white;
-    border: none;
+    border-style: outset;
+    border-color: #205c2b;
     border-radius: 8px;
     letter-spacing: 0.2em;
 }
