@@ -145,10 +145,25 @@ add photos of notebook sketches
 </ul>
 
 <h1>Testing</h1> 
+<h2>Responsiveness</h2>
+<h2>Accessibility</h2>
+<h2>Lighthouse testing</h2>
+<h2>Functional testing</h2>
 
-Accessibility, SEO, validators, lighthouse?
+![Testing capture](docs/testing-images/Functional%20testing.JPG)
 
-Lenovo Tab M10
+<a href="https://docs.google.com/spreadsheets/d/1P0aYNtvpA9QDwnZXACqm3CdlsmWsdYgggPdPFDCIM2Q/edit#gid=0"
+>Document can be viewed here</a>
+
+<h3>Devices the site was tested on<h3>
+Notebook Asus E406M + external Dell monitor
+Notebook Asus E406M
+Tablet Lenovo Tab M10
+iPhone XR
+Samsung Galaxy 8+
+
+<h2>Validator testing</h2>
+
 
 <h1>Deployment</h1>
 
