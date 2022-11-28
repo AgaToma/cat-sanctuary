@@ -354,4 +354,4 @@ Free to use photos were taken from<br>
 
 <h3>Own resources</h3>
 Scrollbar photo 4<br>
-Scrollbar video - Permission to use the video was obtained from the author Magda Muras. 
+Scrollbar video - permission to use the video was obtained from the author Magda Muras. 
