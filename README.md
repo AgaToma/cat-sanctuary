@@ -4,6 +4,7 @@
 This website was designed and built for educational practice and is about a fictional cat shelter - Laois Cat Sancturary, the idea of which was created for the purpose of this project. The website is to enable users to find information about the shelter's profile, scope of activities, animals in their care and location. The purpose is also to encourage new volunteers to sign up and support the shelter. It's a static, responsive website built with HTML & CSS as basic technologies at this time, further features can be added at later time with Javascript and a database.  
 
 ![Multidevice mockup](docs/readme-images/mockup.jpg)
+[Live website can be viewed here](https://agatoma.github.io/cat-sanctuary/)
 
 <h1>Features</h1> 
 <h2>Site wide</h2>
@@ -249,6 +250,21 @@ Website was tested with [W3C jigsaw validator](https://jigsaw.w3.org/css-validat
 
 <h1>Deployment</h1>
 
+<h2>Version Control</h2>
+Site was created and developed with GitHub using Gitpod in Chrome. The following commands were used for version control.
+<ul>
+    <li>git add . - add changes to staging area before committing</li> 
+    <li>git commit -m "commit message" - committing staged changes to the local repository</li>
+    <li>git push - pushing commited changes to the GitHub remote repository</li>
+</ul>
+
+<h2>Deployment with GitHub Pages</h2>
+
+Site was deployed using GitHub Pages by following Settings -> Pages -> Deploy from a branch - choose main - click Save. 
+
+Live website can be found [here](https://agatoma.github.io/cat-sanctuary/)
+GitHub repository can be found [here](https://github.com/AgaToma/cat-sanctuary)
+
 <h1>Credits</h1>
 <h2>References</h2>
 Used the below resources for reference and help.
@@ -259,13 +275,53 @@ https://www.w3schools.com/css/css_navbar_horizontal.asp
 https://blog.logrocket.com/creating-custom-mouse-cursor-css/ <br>
 https://www.w3schools.com/CSSref/pr_class_cursor.php
 <h3>General</h3>
-Stack Overflow <br>
+
+[Stack Overflow](https://stackoverflow.com/)<br>
 https://www.w3schools.com/css/ <br>
-https://developer.mozilla.org/en-US/docs/Web/CSS/
+https://developer.mozilla.org/en-US/docs/Web/CSS/ <br>
+
+My Code Institute mentor [Daisy McGirr](https://github.com/Daisy-McG) - guidance, support and useful insights. 
 
 <h2>Content</h2>
 Content of the website is fictional and was created for educational purposes of building the website by it's author (Aga Tomaszewska)
 
 <h2>Media</h2>
-Photos were taken from unsplash & pexels (free to use) & own resources (sleeping-cats.jpg).
-Permission to use the video was obtained from the author Magda Muras. 
+Free to use photos were taken from<br>
+
+<h3>Unsplash</h3>
+
+[Cat Alexander](https://images.unsplash.com/photo-1495360010541-f48722b34f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNhdCUyMG9uJTIwc3RhaXJzJTIwYWxleGFuZGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60) (author - Alexander London)
+
+[Cat Amber](https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNhdCUyMG9uJTIwc3RhaXJzJTIwYWxleGFuZGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60) (author - Amber Kipp)
+
+[Cat Mimi](https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60) (author - Alvan Nee)
+
+[Cat Ramen](https://unsplash.com/photos/7GX5aICb5i4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) (author - Jae Parl)
+
+[Cat Roisin](https://images.unsplash.com/photo-1594473198611-9ef233fc7850?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60) (author - Zuzana)
+
+<h3>Pexels</h3>
+
+[Cat Pixel](https://images.pexels.com/photos/2071873/pexels-photo-2071873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load) (author - Wojciech Kumpicki)
+
+[Location background](https://www.pexels.com/photo/waterfalls-in-forest-355321/)
+
+[Scrollbar photo 2](https://images.pexels.com/photos/7633693/pexels-photo-7633693.jpeg?auto=compress&cs=tinysrgb&w=1600) (author - Ali Khalil)
+
+[Signup background](https://images.pexels.com/photos/1000593/pexels-photo-1000593.jpeg?auto=compress&cs=tinysrgb&w=1600) (author - Jimmy Chan)
+
+<h3>Pixabay</h3>
+
+[Scrollbar photo 1](https://pixabay.com/photos/kittens-pet-felines-cats-animals-3535404/) (author - congerdesign)
+
+<h3>Depositphotos</h3>
+
+[Scrollbar photo 3](https://st2.depositphotos.com/48245814/45420/i/600/depositphotos_454202308-stock-photo-young-cat-jumps-meadow-backlit.jpg) (author Foto-SD)
+
+<h3>Wallpaperflare</h3>
+
+[About photo](https://c4.wallpaperflare.com/wallpaper/318/147/746/cat-blue-eyes-kittens-animals-wallpaper-preview.jpg)
+
+<h3>Own resources</h3>
+Scrollbar photo 4
+Scrollbar video - Permission to use the video was obtained from the author Magda Muras. 
