@@ -149,11 +149,32 @@ add photos of notebook sketches
 <h1>Testing</h1> 
 <h2>Responsiveness</h2>
 
+<p>Website was developed and tested for responsiveness using Developer Tools in Chrome. To ensure optimal website look for best user experience for screen sizes starting from 320px the below wiewport size breakpoints were applied:</p>
+<ul>
+    <li>above 1500px</li>
+    <li>1400px - 1500px</li>
+    <li>1000px - 1399px</li>
+    <li>1000px - 1399px</li>
+    <li>650px - 999px</li>
+    <li>751px - 999px - for signup form only</li>
+    <li>430px - 651px</li>
+    <li>320px - 430px</li>
+</ul>
+
+<p>Testing was done by applying breakpoints in the Dimensions section by setting it to responsive. To ensure the website's look is as desired between the breakpoints, the responsive testing window was manually dragged to increase/decrease width.</p>
+
+<h3>Expected behaviour:</h3>
+Website is responsive on all screen sizes with photos not being pixelated or stretched, no scrollbars are appearing except for the one in the design. 
+
+<h3>Actual behaviour:</h3>
+As expected.
+
 <h3>Devices the site was tested on for responsiveness (no issues found)</h3>
-<p>Notebook Asus E406M + external Dell monitor</p>
-<p>Notebook Asus E406M</p>
-<p>Tablet Lenovo Tab M10</p>
-<p>Phone XR</p>
+<p>Asus E406M + external Dell monitor</p>
+<p>Asus E406M</p>
+<p>Dell Latitute 5400</p>
+<p>Lenovo Tab M10</p>
+<p>iPhone XR</p>
 <p>Samsung Galaxy 8+</p>
 
 <h4>Browsers: Chrome, Edge, Firefox, Safari</h4>
@@ -173,6 +194,7 @@ Tested with [Wave](https://wave.webaim.org/) - Web Accessibility Evaluation Tool
 <p>No other errors were found</p>
 
 ![Wave_results](docs/testing-images/wave-results.JPG)
+![Wave_alerts](docs/testing-images/wave-alerts.JPG)
 
 <p>There are 2 alerts showing, however</p>
 <ol>
