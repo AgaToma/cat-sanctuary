@@ -17,7 +17,7 @@ This website was designed and built for educational practice and is about a fict
  ![Favicon](docs/readme-images/favicon.JPG) 
 
 <ul>
-    <li><h3>Customized mouse cursor hover over links</h3></li>
+    <li><h3>Customized mouse coursor hover over links</h3></li>
     When hovering over links the mouse coursor takes on the shape of an animal paw, which makes the feel of the website more cat like and helps the user get into the right mood. 
 </ul>
    
@@ -25,14 +25,14 @@ This website was designed and built for educational practice and is about a fict
 
 <ul>
     <li><h3>Navigation menu in the header</h3></li>
-    The responsive navigation menu contains links to Home, Meet the cats (gallery page) and Volunteer (Signup form page), which enables the user to easily navigate between pages from any of them. The active class helps to orientate the user on the current location (page). 
+    The responsive navigation menu contains links to Home, Meet the cats (gallery page) and Volunteer (signup form page), which enables the user to easily navigate between pages from any of them. The active class helps to orientate the user on the current location (page). 
 </ul>
 
 ![Navbar](docs/readme-images/navbar.JPG)
 
 <ul>
     <li><h3>Social media links in the footer</h3></li>
-    Social media links in the form of well known brand icons of Facebook, Youtube and Instagram can be access from any page on the site. When clicked they open in a separate browser window, which enables the user to open more than one site at the same time.  
+    Social media links in the form of well known brand icons of Facebook, Youtube and Instagram can be accessed from any page on the site. When clicked they open in a separate browser window, which enables the user to open more than one site at the same time.  
 </ul>
     
 ![Footer](docs/readme-images/footer.JPG) 
@@ -47,7 +47,7 @@ This website was designed and built for educational practice and is about a fict
 
 <ul>
     <li><h3>Scrollbar with images & video</h3></li>
-    Scrollbar with four images and a video provides a user controlled experience, where user can get further context around cat's life in the shelter. The video is fully user controlled - can be expanded to be viewed in full screen mode, muted, played, paused stopped by the user. In future deployments scrollbar can potentially be replaced with a bootstrap carousel for even better visual experience.
+    Scrollbar with four images and a video provides a user controlled experience, where user can get further context around cat's life in the shelter. The video is also sfully user controlled - can be expanded to be viewed in full screen mode, muted, played, paused stopped by the user. In future deployments scrollbar can potentially be replaced with a bootstrap carousel for even better visual experience.
 </ul>
 
 ![Carousel](docs/readme-images/carousel.JPG)
@@ -66,7 +66,7 @@ This website was designed and built for educational practice and is about a fict
     </ul>
     <ul>
         <li><h4>Google map</h4></li>
-        User is able to see the location on an embedded google map. Google map has +/- buttons for user to scale it for their convenience, it also has "View larger map" option, which when clicked opens the map in a separate tab providing user the option to use further google map features. There is also a direct link for "Directions", which again open google maps in a separate browser tab, where user can get
+        User is able to see the location on an embedded google map. Google map has +/- buttons for user to scale it for their convenience, it also has "View larger map" option, which when clicked opens the map in a separate tab providing user the option to use further google map features. There is also a direct link for "Directions", which again open google maps in a separate browser with the option to find best route from the location inserted by the user.
     </ul>
 </ul>
 
@@ -76,7 +76,7 @@ This website was designed and built for educational practice and is about a fict
 
 
 <h2>Gallery - Meet the cats</h2>
-The gallery provides user the opportunity to individually see the cats living in the shelter and get to know them a bit better by seeing their images along with their names and short description with the ultimate purpose of encouraging the user to come to the sanctuary and visit the cat they particularly like. In future deployments "Meet Me" and "Adopt Me" buttons linked to forms and a database would be added to enhance this experience and call user to action in an even more impactful way.
+The gallery provides user the opportunity to individually see the cats living in the shelter and get to know them a bit better by seeing their images along with their names and short description. The ultimate purpose is to encourage the user to come to the sanctuary and visit the cat they particularly like. In future deployments "Meet Me" and "Adopt Me" buttons linked to forms and a database would be added to enhance this experience and call user to action in an even more impactful way.
 
 ![Gallery](docs/readme-images/gallery.JPG)
 
@@ -104,19 +104,20 @@ The responsive sign up form allows users to enter their contact information and 
             Voluntary field, input is not required
         </ul>
 <ul>
-   If user doesn't fillout the required fields or inputs data in a wrong format, they will not be able to submit the form
-   Upon submitting the form is redirected to Code Institute form dump site, where a set of submitted data is displayed. In future deployments this would be replaced by a "Thank you" page and user data would be sent to a database.  
+
+<p>If user doesn't fill out the required fields or inputs data in a wrong format, they will not be able to submit the form.
+   Upon submitting the form is redirected to Code Institute form dump site, where a set of submitted data is displayed. In future deployments this would be replaced by a "Thank you" page and user data would be sent to a database. </p>
 
 ![Signup](docs/readme-images/signup.JPG)
 
 <h2>Current features summary</h2>
 
-responsive design, customized cursor, photo/video scroll section, responsive sign up form 
+Responsive design, customized cursor, photo/video scroll section, responsive sign up form 
 
 <h2>Features to be developed in future deployments</h2>
 
-Bootstrap carousel instead of horizontal scroll bar
-Adopt me & Meet me buttons for gallery
+Bootstrap carousel instead of horizontal scroll bar<br>
+Adopt me & Meet me buttons for gallery<br>
 Newsletter signup for events, needed donations etc. 
 
 <h1>Design</h1>
@@ -184,7 +185,6 @@ Volunteer (signup form)
     <li>above 1500px</li>
     <li>1400px - 1500px</li>
     <li>1000px - 1399px</li>
-    <li>1000px - 1399px</li>
     <li>650px - 999px</li>
     <li>751px - 999px - for signup form only</li>
     <li>430px - 651px</li>
@@ -193,10 +193,10 @@ Volunteer (signup form)
 
 <p>Testing was done by applying breakpoints in the Dimensions section by setting it to responsive. To ensure the website's look is as desired between the breakpoints, the responsive testing window was manually dragged to increase/decrease width.</p>
 
-<h3>Expected behaviour:</h3>
+<h3>Expected behaviour</h3>
 Website is responsive on all screen sizes with photos not being pixelated or stretched, no scrollbars are appearing except for the one in the design. 
 
-<h3>Actual behaviour:</h3>
+<h3>Actual behaviour</h3>
 As expected.
 
 <h3>Devices the site was tested on for responsiveness (no issues found)</h3>
@@ -220,7 +220,7 @@ Tested with [Wave](https://wave.webaim.org/) - Web Accessibility Evaluation Tool
     <li>using a balanced color pallette to ensure user friendly contrast</li>
 </ul>
 
-<p>During testing of the completed signup form and error was found where orange submit button combined with white bold text was not meeting contrast criteria, this was fixed by changing button color to darker green, after which the button passed the accessibility test.</p>
+<p>During testing of the completed signup form an error was found where orange submit button combined with white bold text was not meeting contrast criteria, this was fixed by changing button color to darker green, after which the button passed the accessibility test.</p>
 <p>No other errors were found</p>
 
 ![Wave_results](docs/testing-images/wave-results.JPG)
@@ -291,7 +291,7 @@ Site was created and developed with GitHub using Gitpod in Chrome. The following
 
 Site was deployed using GitHub Pages by following Settings -> Pages -> Deploy from a branch - choose main - click Save. 
 
-Live website can be found [here](https://agatoma.github.io/cat-sanctuary/)
+Live website can be found [here](https://agatoma.github.io/cat-sanctuary/)<br>
 GitHub repository can be found [here](https://github.com/AgaToma/cat-sanctuary)
 
 <h1>Credits</h1>
