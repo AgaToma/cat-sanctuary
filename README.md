@@ -145,6 +145,8 @@ add photos of notebook sketches
     Color pallette was generated with http://colormind.io/ 
     <li>Convertio</li>
     JPG format gallery photos were converted to webp using https://convertio.co/jpg-webp/ 
+    <li>Google maps</li>
+    Ready to embed link from Google maps was used in Location section iframe. 
 </ul>
 
 <h1>Testing</h1> 
@@ -323,5 +325,5 @@ Free to use photos were taken from<br>
 [About photo](https://c4.wallpaperflare.com/wallpaper/318/147/746/cat-blue-eyes-kittens-animals-wallpaper-preview.jpg)
 
 <h3>Own resources</h3>
-Scrollbar photo 4
+Scrollbar photo 4<br>
 Scrollbar video - Permission to use the video was obtained from the author Magda Muras. 
