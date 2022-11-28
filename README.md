@@ -231,8 +231,8 @@ Website was tested with [W3C validator](https://validator.w3.org/).
 
 Initially, the following results were returned for index.html:
 <ol>
-    <li>Error: Unordered list on lines 51, 62, 73 were wrapped in paragraph tags. Fix: paragraph tags were removed and desired styling was applied via CSS.</li>
-    <li>Alert: Table headings from address table in location section were not in the same table rows. Fix: moved second table heading to the same row as first table heading</li>
+    <li>Error: Unordered list on lines 51, 62, 73 were wrapped in paragraph tags. <ul><li>Fix: paragraph tags were removed and desired styling was applied via CSS.</ul></li></li>
+    <li>Alert: Table headings from address table in location section were not in the same table rows. <ul><li>Fix: moved second table heading to the same row as first table heading</ul></li></li>
 </ol> 
 
 Test was rerun and returned the following results without errors and alerts for all pages on the site
