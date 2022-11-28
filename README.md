@@ -282,7 +282,8 @@ https://www.w3schools.com/CSSref/pr_class_cursor.php
 https://www.w3schools.com/css/ <br>
 https://developer.mozilla.org/en-US/docs/Web/CSS/ <br>
 
-My Code Institute mentor [Daisy McGirr](https://github.com/Daisy-McG) - guidance, support and useful insights. 
+<h3>Acknowlegdement</h3>
+My Code Institute mentor [Daisy McGirr](https://github.com/Daisy-McG) - for her guidance, support and useful insights. 
 
 <h2>Content</h2>
 Content of the website is fictional and was created for educational purposes of building the website by it's author (Aga Tomaszewska)
