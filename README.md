@@ -121,7 +121,34 @@ Newsletter signup for events, needed donations etc.
 
 <h1>Design</h1>
 
-add photos of notebook sketches
+Initial design of the page was drafted with pencil and paper.
+
+<details>
+  <summary markdown="span">Mobile design sketches</summary>
+
+![Home](docs/design-sketches/home-mobile.jpg)
+Home
+
+![Gallery](docs/design-sketches/gallery-mobile.jpg)
+Meet the cats (gallery)
+
+![Signup](docs/design-sketches/form-mobile.jpg)
+Volunteer (signup form)
+
+
+</details>
+<details>
+  <summary markdown="span">Desktop design sketches</summary>
+
+![Home](docs/design-sketches/home-desktop.jpg)
+Home
+
+![Gallery](docs/design-sketches/gallery-desktop.jpg)
+Meet the cats (gallery)
+
+![Signup](docs/design-sketches/form-desktop.jpg)
+Volunteer (signup form)
+</details>
 
 <h1>Technologies</h1>
 <ul>
